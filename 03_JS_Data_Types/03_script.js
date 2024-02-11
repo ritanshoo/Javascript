@@ -13,11 +13,11 @@ console.log(`${isManager} => ${typeof isManager}`);
 
 // undefined
 let a;
-console.log(`${a} => ${typeof a}`);
+console.log(`${a} => ${typeof a}`); // both value and type will be undefined
 
 // null
 let dummyValue = null;
-console.log(`${dummyValue} => ${typeof dummyValue}`);
+console.log(`${dummyValue} => ${typeof dummyValue}`);  // here type will be Object
 
 // Re-assignment
 let test;
@@ -26,7 +26,7 @@ console.log(test);
 test = 'John';
 test = 10;
 test = true;
-test = null;
+// test = null;
 console.log(test);
 
 

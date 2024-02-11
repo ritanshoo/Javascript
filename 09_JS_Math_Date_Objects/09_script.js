@@ -9,11 +9,11 @@ console.log(Math.PI);
 let sqrt = Math.sqrt(144);
 console.log(`Sqrt of 144 is : ${sqrt}`);
 
-// find the min of 4 numbers
+// find the min of X numbers
 let min = Math.min(10,798,481,894,69846,181,68,46,16,19,18,91,981);
 console.log(min);
 
-// find the Max of 4 numbers
+// find the Max of X numbers
 let max = Math.max(10,798,481,894,69846,181,68,46,16,19,18,91,981);
 console.log(max);
 
@@ -22,8 +22,8 @@ let pow = Math.pow(2,4);
 console.log(`2 ^ 4 is : ${pow}`);
 
 // generate the random numbers from 0 to 100
-let random = Math.round(Math.random() * 100000);
-console.log(random);
+let random = Math.round(Math.random());
+console.log({random});
 
 /* For more details about Math Object, please have a look at
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
@@ -35,11 +35,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 // get today's date
 let date = new Date();
-console.log(date);
+console.log({date});
 
 // Get proper date
 let currentDate = new Date().toLocaleDateString();
-console.log(currentDate);
+console.log({currentDate});
 
 // Get Current Time
 let currentTime = new Date().toLocaleTimeString();
@@ -82,6 +82,7 @@ switch(day) {
         today += 'no - day';
         break;
 }
+
 console.log(today);
 
 // Display a Digital Clock on the web page
@@ -104,16 +105,16 @@ let num1 = Number(100);
 console.log(num1);
 
 let minNumber = Number.MIN_SAFE_INTEGER;
-console.log(minNumber);
+console.log({minNumber});
 
 let maxNumber = Number.MAX_SAFE_INTEGER;
-console.log(maxNumber);
+console.log({maxNumber});
 
 let posInfi = Number.POSITIVE_INFINITY;
-console.log(posInfi);
+console.log({posInfi});
 
 let negInfi = Number.NEGATIVE_INFINITY;
-console.log(negInfi);
+console.log({negInfi});
 
 let num2 = Number(500.15);
 console.log(`value : ${num2} type ${typeof num2}`);

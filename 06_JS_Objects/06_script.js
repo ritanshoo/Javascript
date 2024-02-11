@@ -11,7 +11,9 @@ console.log(employee);
 console.log(employee.name); // John
 
 // Add a property to an object
-employee.location = "Hyderabad";
+employee.name = "nupur";
+employee.nupur = "dhanbad";
+
 console.log(employee);
 
 // access the non existing property

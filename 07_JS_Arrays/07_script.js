@@ -76,7 +76,7 @@ console.log(colors);
 colors.sort().reverse();
 console.log(colors);
 
-// splice(index) -> to remove all the elements from the given index
+// splice(index) -> to remove all the elements from the given index  or replace in the middle
 colors = ['white','black','orange','red','purple'];
 console.log('------------------ splice(index) ------------------ ');
 console.log(colors);
@@ -174,13 +174,13 @@ let employees = [
         active : false
     },
     {
-        name : 'Rajan',
+        name : 'Rajan Singh',
         age : 25,
         designation : 'Software Engineer',
         active : true
     },
     {
-        name : 'Laura',
+        name : 'Laura Singh',
         age : 30,
         designation : 'Team Lead',
         active : false
@@ -203,11 +203,12 @@ for(let employee of employees){
 }
 console.log(activeEmps);
 
-// filter =>to filter an array with some condition
+// filter =>to filter an array with some condition, this methods return an array
+
 let activeEmployees = employees.filter((employee) => {
-    return employee.active;
+    return employee.name.includes("Singh") ;
 });
-console.log(activeEmployees);
+console.log(">>>>>>>>>> ",activeEmployees);
 
 // inactive Employees
 let inActiveEmployees = employees.filter((employee) => {

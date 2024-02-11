@@ -29,6 +29,9 @@ console.log(val);
 val = document.querySelector('.main-nav');
 console.log(val);
 
+// document.getElementById()
+// document.getElementsByClassName()
+
 // nested element selection
 val = document.querySelector('.main-nav a span');
 console.log(val.textContent);

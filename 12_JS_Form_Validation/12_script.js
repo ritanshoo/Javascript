@@ -20,7 +20,7 @@ let validateForm = () => {
 let validateUserName = () => {
     let inputField = document.querySelector('#username');
     if(inputField.value === ''){
-        applyColors(inputField,'orangered');
+        applyColors(inputField,'pink');
         displayErrorMessage('UserName is Required');
         return false;
     }
