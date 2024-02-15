@@ -1,5 +1,3 @@
-
-
 // convert to Word Number
 let convertToWord = (str) => {
     let numbersArray = ['ZERO', 'ONE', 'TWO', 'THREE', 'FOUR', 'FIVE', 'SIX', 'SEVEN', 'EIGHT', 'NINE'];
@@ -23,3 +21,4 @@ numberBox.addEventListener('keyup', () => {
     displayText.innerText =  word;
     console.log("displayText.innerText",word)
 });
+// keyup, onclick, onsubmit EventCounts,

@@ -4,7 +4,7 @@ function printNumbers(startNumber,endNumber,increNumber) {
         output += `${i} `;
     }
     console.log(output);
-    console.log(typeof output);
+    conso,le.log(typeof output);
 }
 printNumbers(2,50,2);
 printNumbers(10,500,10);

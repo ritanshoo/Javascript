@@ -9,6 +9,9 @@ let student = {
     }
 };
 
+const x = student.name; 
+
+
 // access the object with Destructuring
 let {name , age , course} = student;
 console.log(`NAME : ${name}

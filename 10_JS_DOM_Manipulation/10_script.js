@@ -52,6 +52,7 @@ h1Tag.style.color = 'white';
 h1Tag.style.textAlign = 'center';
 h1Tag.style.padding = '15px';
 h1Tag.style.boxShadow = '0 0 10px black';
+h1Tag.className = '0 0 10px black';
 
 
 // <nav id="nav-bar" class="main-nav">

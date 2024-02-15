@@ -2,7 +2,7 @@
                             Math Object Examples
  -------------------------------------------------------------------- */
 
-// Math PI
+// Math API
 console.log(Math.PI);
 
 // Math sqrt
@@ -46,9 +46,9 @@ let currentTime = new Date().toLocaleTimeString();
 console.log(currentTime);
 
 // get USA Date & Time
-let options = {timeZone : 'America/New_York'};
+let options = {timeZone : 'Asia/Shanghai'};
 let usaDate = new Date().toLocaleDateString('en-US',options);
-console.log(usaDate);
+console.log({usaDate});
 
 let usaTime = new Date().toLocaleTimeString('en-US',options);
 console.log(usaTime);

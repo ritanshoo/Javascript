@@ -102,13 +102,13 @@ colors = ['white','black','orange','red','purple'];
 console.log('------------------ Join() ------------------ ');
 console.log(colors);
 let colorString = colors.join(' , ');
-console.log(colorString);
+console.log({colorString});
 
 // split()=>to convert a string to an array
 console.log('------------------ split() ------------------ ');
 console.log(colorString);
 let newColors = colorString.split(' , ');
-console.log(newColors);
+console.log({newColors});
 
 // splice()=>remove or replace in the middle
 //slice() -> to create a new copy of an array

@@ -11,8 +11,8 @@ console.log(employee);
 console.log(employee.name); // John
 
 // Add a property to an object
-employee.name = "nupur";
-employee.nupur = "dhanbad";
+employee.name = "chand";
+employee.gagan = "chanhed";
 
 console.log(employee);
 
